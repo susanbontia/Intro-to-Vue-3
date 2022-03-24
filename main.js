@@ -1,3 +1,8 @@
+
+/**
+ *  Create the main module application
+ */
+
 const app = Vue.createApp({
     data() {
         return {
@@ -6,3 +11,4 @@ const app = Vue.createApp({
         }
     }
 })
+
