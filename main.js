@@ -1,9 +1,11 @@
 const app = Vue.createApp({
     data() {
         return {
-            product: 'Boots',
-            description: 'the socks is blue',
-            value: '150'
+            product: 'Socks',
+            description: 'The socks is color green',
+            value: '29',
+            image: './assets/images/socks_green.jpg',
+            url: 'www.google.com'
         }
     }
 })
